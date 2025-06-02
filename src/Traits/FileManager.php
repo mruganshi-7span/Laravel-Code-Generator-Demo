@@ -1,11 +1,11 @@
 <?php
 
-namespace Sevenspan\CodeGenerator\Traits;
+namespace Mruganshi\CodeGenerator\Traits;
 
 use Illuminate\Support\Facades\File;
-use Sevenspan\CodeGenerator\Enums\CodeGeneratorFileType;
-use Sevenspan\CodeGenerator\Models\CodeGeneratorFileLog;
-use Sevenspan\CodeGenerator\Enums\CodeGeneratorFileLogStatus;
+use Mruganshi\CodeGenerator\Enums\CodeGeneratorFileType;
+use Mruganshi\CodeGenerator\Models\CodeGeneratorFileLog;
+use Mruganshi\CodeGenerator\Enums\CodeGeneratorFileLogStatus;
 
 /**
  * Trait FileManager

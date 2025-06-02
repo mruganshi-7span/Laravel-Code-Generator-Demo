@@ -1,15 +1,15 @@
 {
-  "name": "sevenspan/code-generator",
+  "name": "mruganshi/code-generator",
   "description": "A Laravel package with a web interface to easily create full CRUD APIs — like models, controllers, migrations, services, traits, notifications, policies, and more. Built using Laravel and Livewire.",
 
   "autoload": {
     "psr-4": {
-      "Sevenspan\\CodeGenerator\\": "src/"
+      "Mruganshi\\CodeGenerator\\": "src/"
     }
   },
   "authors": [
     {
-      "name": "sevenspan"
+      "name": "mruganshi"
     }
   ],
   "require": {
@@ -19,7 +19,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Sevenspan\\CodeGenerator\\CodeGeneratorServiceProvider"
+        "Mruganshi\\CodeGenerator\\CodeGeneratorServiceProvider"
       ]
     }
   }

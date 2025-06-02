@@ -1,6 +1,6 @@
 <?php
 
-use Sevenspan\CodeGenerator\Http\Middleware\AuthorizeCodeGenerator;
+use Mruganshi\CodeGenerator\Http\Middleware\AuthorizeCodeGenerator;
 
 return [
     /*
@@ -69,7 +69,7 @@ return [
         AuthorizeCodeGenerator::class, // Custom middleware to authorize generator access
     ],
 
-    'class_namespace' => 'Sevenspan\\CodeGenerator',
+    'class_namespace' => 'Mruganshi\\CodeGenerator',
 
     /*
     |--------------------------------------------------------------------------
@@ -77,5 +77,5 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'log_retention_days' => env('CODE_GENERATOR_LOG_RETENTION_DAYS',2),
+    'log_retention_days' => env('CODE_GENERATOR_LOG_RETENTION_DAYS', 2),
 ];

@@ -1,6 +1,6 @@
 <?php
 
-namespace Sevenspan\CodeGenerator\Http\Livewire;
+namespace Mruganshi\CodeGenerator\Http\Livewire;
 
 use Livewire\Component;
 

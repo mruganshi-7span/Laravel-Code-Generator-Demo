@@ -1,10 +1,10 @@
 <?php
 
-namespace Sevenspan\CodeGenerator\Http\Livewire;
+namespace Mruganshi\CodeGenerator\Http\Livewire;
 
 use Livewire\Component;
 use Livewire\WithPagination;
-use Sevenspan\CodeGenerator\Models\CodeGeneratorFileLog;
+use Mruganshi\CodeGenerator\Models\CodeGeneratorFileLog;
 
 class Logs extends Component
 {
