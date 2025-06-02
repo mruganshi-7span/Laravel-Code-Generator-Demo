@@ -1,0 +1,35 @@
+<?php
+
+namespace {{ serviceClassNamespace }};
+
+use App\{{ relatedModelNamespace }};
+
+class {{ serviceClass }} {
+    public function __construct( {{ modelObject }}) {  }
+
+public  function resource($id,$inputs)
+{
+    {{ resourceMethod }}
+}
+
+public function collection($inputs=null)
+{
+    {{ collectionMethod }}
+}
+
+public function store($inputs)
+{
+    {{ storeMethod }}
+}
+
+public function update($id,$inputs)
+{
+    {{ updateMethod }}
+}
+
+public function destroy($id,$inputs = null)
+{
+    {{ deleteMethod }}
+}
+
+}

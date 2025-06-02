@@ -1,0 +1,48 @@
+<?php
+
+namespace {{ namespace }};
+
+use App\{{ relatedModelNamespace }};
+
+class {{ class }}
+{
+    /**
+     * Handle the {{ model }} "created" event.
+     */
+    public function created({{ model }} ${{ modelInstance }}): void
+    {
+        //
+    }
+
+    /**
+     * Handle the {{ model }} "updated" event.
+     */
+    public function updated({{ model }} ${{ modelInstance }}): void
+    {
+        //
+    }
+
+    /**
+     * Handle the {{ model }} "deleted" event.
+     */
+    public function deleted({{ model }} ${{ modelInstance }}): void
+    {
+        //
+    }
+
+    /**
+     * Handle the {{ model }} "restored" event.
+     */
+    public function restored({{ model }} ${{ modelInstance }}): void
+    {
+        //
+    }
+
+    /**
+     * Handle the {{ model }} "force deleted" event.
+     */
+    public function forceDeleted({{ model }} ${{ modelInstance }}): void
+    {
+        //
+    }
+}
