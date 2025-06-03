@@ -58,7 +58,9 @@
             @if($this->isForeignKey)
 
             <div class="bg-white border border-gray-200 rounded-2xl shadow-md p-6 mt-6">
-
+                <p class="text-xs italic text-gray-500 mt-1">Note: This foreign key data is required for generating the
+                    base
+                    model file. </p>
                 <!-- Related Table Name -->
                 <div class="mb-5">
                     <label class="block text-sm font-medium text-gray-700 mb-1">Related Table Name</label>

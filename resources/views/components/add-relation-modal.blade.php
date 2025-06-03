@@ -9,8 +9,8 @@
             <button x-on:click="$wire.isAddRelModalOpen=false"
                 class="text-gray-500 hover:text-black text-xl">&times;</button>
         </x-slot:closebtn>
-        <p class="text-xs italic text-gray-500 mt-1">Note: This foreign-key data are required for generating the base
-            model's migration </p>
+        <p class="text-xs italic text-gray-500 mt-1">Note: This foreign key data is required for generating the base
+            model file. </p>
         <div class="flex flex-col gap-4">
 
             <div class="text-red-500"></div>
